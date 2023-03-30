@@ -1,0 +1,20 @@
+{
+    "name": "mg3lo/mysql-crud-api",
+    "description": "MySql Crud Api Library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Angelo Angulo",
+            "email": "markangeloangulo@yahoo.com"
+        }
+    ],
+	"require": {
+		"mg3lo/mysql-crud": "^1.0"
+	},
+    "autoload": {
+		"psr-4": {
+			"Mg3lo\\": "src/"
+		}
+	}
+}
